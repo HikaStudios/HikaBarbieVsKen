@@ -30,6 +30,7 @@ public class AdminCommand implements CommandExecutor {
         	  if (args[0].equalsIgnoreCase("reload")) {
         		  sender.sendMessage("HikaBarbieKen recargado");
         		  barbieKen.init();
+			  sender.sendMessage("Test");
         	  }else if (args[0].equalsIgnoreCase("death")) {
         		barbieKen.getGameManager().death();
         	  } else if (args[0].equalsIgnoreCase("pausetimer")) {
