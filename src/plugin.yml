@@ -1,0 +1,13 @@
+name: HikaBarbieKen
+main: me.santipingui58.barbie.BarbieKen
+version: 1.0
+api-version: 1.19
+commands:
+  global:
+    permission: hika.staff
+  settimer:
+    permission: hika.admin
+  admin:
+    permission: hika.admin
+  login:
+    description: login
